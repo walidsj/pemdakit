@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'DocuProv',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Belajar Peraturan dan Ketentuan Daerah dengan Mudah melalui Website',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -98,7 +98,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Hak Cipta © ${new Date().getFullYear()} DocuProv.`,
+        copyright: `Hak Cipta © ${new Date().getFullYear()} DocuProv`,
       },
       prism: {
         theme: lightCodeTheme,
