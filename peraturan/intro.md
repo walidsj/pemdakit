@@ -2,34 +2,8 @@
 sidebar_position: 1
 ---
 
-# Kumpulan Peraturan
+# Bank Peraturan
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Pada kategori ```Peraturan``` ini, terdiri dari berbagai macam peraturan yang dianggap relevan dengan pekerjaan selama menjadi PNS di lingkungan Pemerintah Provinsi Kalimantan Timur.
 
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npm init docusaurus@latest my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
+## Daftar Isi

@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'PemdaKit',
-  tagline: 'Buku Saku Berisi Kumpulan Materi, Peraturan, dan Ketentuan Daerah Mudah melalui Website',
+  tagline: 'Buku Saku Berisi Kumpulan Materi, Peraturan, dan Ketentuan Daerah Provinsi Kalimantan Timur Mudah melalui Website',
   url: 'https://pemdakit.walid.id',
   baseUrl: '/',
   onBrokenLinks: 'throw',
