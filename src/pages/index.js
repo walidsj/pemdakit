@@ -12,9 +12,10 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
+      <img alt="Docusaurus with Keytar" class="heroLogo" src="/img/pemdakit.png"/>
         <h1 className="hero__title">
           <Typical
-          steps={['PemdaKit v1', 3000, 'Pemprov Kaltim', 2000]}
+          steps={[siteConfig.title, 3000, 'Pemprov Kaltim', 2000]}
           loop={Infinity}
           />
         </h1>
