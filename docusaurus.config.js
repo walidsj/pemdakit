@@ -106,7 +106,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'home',
             position: 'left',
             label: 'Materi',
           },
@@ -117,7 +117,7 @@ const config = {
           //   activeBaseRegex: `/materi/`,
           // },
           {
-            to: '/peraturan/intro',    // ./docs/Intro.md
+            to: '/peraturan/home',    // ./docs/Intro.md
             label: 'Peraturan',
             position: 'left',
             activeBaseRegex: `/peraturan/`,
