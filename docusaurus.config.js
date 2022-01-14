@@ -26,20 +26,20 @@ const config = {
     //     sidebarPath: require.resolve('./sidebars-materi.js'),
     //   }, 
     // ],
-    // [
-    //   require.resolve("@easyops-cn/docusaurus-search-local"),
-    //   {
-    //     // ... Your options.
-    //     // `hashed` is recommended as long-term-cache of index file is possible.
-    //     hashed: true,
-    //     docsDir: ['docs', 'peraturan'],
-    //     // For Docs using Chinese, The `language` is recommended to set to:
-    //     // ```
-    //     // language: ["en", "zh"],
-    //     // ```
-    //     // When applying `zh` in language, please install `nodejieba` in your project.
-    //   },
-    // ],
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        docsDir: ['docs', 'peraturan'],
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        // language: ["en", "zh"],
+        // ```
+        // When applying `zh` in language, please install `nodejieba` in your project.
+      },
+    ],
     [
       '@docusaurus/plugin-content-docs',
       {
@@ -77,26 +77,26 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      algolia: {
-        // If Algolia did not provide you any appId, use 'BH4D9OD16A'
-        appId: 'XPUU34ZB8P',
+      // algolia: {
+      //   // If Algolia did not provide you any appId, use 'BH4D9OD16A'
+      //   appId: 'XPUU34ZB8P',
   
-        // Public API key: it is safe to commit it
-        apiKey: '2bd5c1897d0c64cecd380573f825f789',
+      //   // Public API key: it is safe to commit it
+      //   apiKey: '2bd5c1897d0c64cecd380573f825f789',
   
-        indexName: 'pemdakit',
+      //   indexName: 'pemdakit',
   
-        // Optional: see doc section below
-        contextualSearch: true,
+      //   // Optional: see doc section below
+      //   contextualSearch: true,
   
-        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        externalUrlRegex: 'external\\.com|domain\\.com',
+      //   // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+      //   externalUrlRegex: 'external\\.com|domain\\.com',
   
-        // Optional: Algolia search parameters
-        searchParameters: {},
+      //   // Optional: Algolia search parameters
+      //   searchParameters: {},
   
-        //... other Algolia params
-      },
+      //   //... other Algolia params
+      // },
       navbar: {
         title: 'PemdaKit',
         logo: {
