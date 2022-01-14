@@ -175,9 +175,9 @@ const config = {
         copyright: `Hak Cipta © ${new Date().getFullYear()} PemdaKit ❤️
         <br/>
         <br/>
-        <a href="https://github.com/walidsj/pemdakit/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/walidsj/pemdakit?style=flat-square"></a>
-        <a href="https://github.com/walidsj/pemdakit/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/walidsj/pemdakit?style=flat-square"></a>
-        <a href="https://github.com/walidsj/pemdakit/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/walidsj/pemdakit?style=flat-square"></a>
+        <a href="https://github.com/walidsj/pemdakit/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/walidsj/pemdakit?color=%23c4635e&style=flat-square"></a>
+        <a href="https://github.com/walidsj/pemdakit/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/walidsj/pemdakit?color=%23c4635e&style=flat-square"></a>
+        <a href="https://github.com/walidsj/pemdakit/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/walidsj/pemdakit?color=%23c4635e&style=flat-square"></a>
         `,
       },
       prism: {
