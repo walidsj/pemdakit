@@ -106,9 +106,9 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'home',
+            docId: 'intro',
             position: 'left',
-            label: 'Materi',
+            label: '📖 Materi',
           },
           // {
           //   to: '/materi/intro',    // ./docs/Intro.md
@@ -117,8 +117,8 @@ const config = {
           //   activeBaseRegex: `/materi/`,
           // },
           {
-            to: '/peraturan/home',    // ./docs/Intro.md
-            label: 'Peraturan',
+            to: '/peraturan/intro',    // ./docs/Intro.md
+            label: '📕 Peraturan',
             position: 'left',
             activeBaseRegex: `/peraturan/`,
           },
