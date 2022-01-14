@@ -1,10 +1,7 @@
 ---
 title: Selamat Datang di PemdaKit v1!
 authors:
-  name: Moh. Walid Arkham Sani
-  title: Penyusun PemdaKit
-  url: https://github.com/walidsj
-  image_url: https://github.com/walidsj.png
+  - walidsj
 tags: 
   - Pengumuman
   - Rilisan

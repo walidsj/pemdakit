@@ -50,6 +50,8 @@ const config = {
         path: 'peraturan',
         routeBasePath: 'peraturan',
         sidebarPath: require.resolve('./sidebars-peraturan.js'),
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true
       }, 
     ],
   ],
@@ -63,9 +65,11 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/walidsj/pemdakit/tree/main/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true
         },
         blog: {
-          showReadingTime: false,
+          showReadingTime: true,
           // Please change this to your repo.
           editUrl:
             'https://github.com/walidsj/pemdakit/tree/main/',
@@ -137,7 +141,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Dokumen',
+            title: 'Konten',
             items: [
               {
                 label: 'Materi',
@@ -154,8 +158,12 @@ const config = {
             ],
           },
           {
-            title: 'Media Sosial',
+            title: 'Kontak Kami',
             items: [
+              {
+                label: 'WhatsApp',
+                href: 'https://wa.me/6285157626557',
+              },
               {
                 label: 'LinkedIn',
                 href: 'https://linkedin.com/in/walidsj',
