@@ -13,10 +13,19 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'walidsj',
-  projectName: 'pemdakit',
+  organizationName: 'walidsj', // Usually your GitHub org/user name.
+  projectName: 'pemdakit', // Usually your repo name.
 
   plugins: [
+    // [
+    //   '@docusaurus/plugin-content-docs',
+    //   {
+    //     id: 'materi',
+    //     path: 'materi',
+    //     routeBasePath: 'materi',
+    //     sidebarPath: require.resolve('./sidebars-materi.js'),
+    //   }, 
+    // ],
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
@@ -25,6 +34,17 @@ const config = {
         docsDir: ['docs', 'peraturan'],
         blogRouteBasePath: "/blog",
         blogDir: 'blog',
+        highlightSearchTermsOnTargetPage: true,
+        translations: {
+          "search_placeholder": "Cari",
+          "see_all_results": "Lihat semua hasil",
+          "no_results": "Tidak ada hasil.",
+          "search_results_for": "Hasil pencarian \"{{ keyword }}\"",
+          "search_the_documentation": "Pencarian",
+          "count_documents_found": "{{ count }} hasil ditemukan",
+          "count_documents_found_plural": "{{ count }} hasil ditemukan",
+          "no_documents_were_found": "Tidak ada hasil ditemukan."
+        }
       },
     ],
     [
@@ -53,6 +73,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          // Please change this to your repo.
           editUrl:
             'https://github.com/walidsj/pemdakit/tree/main/',
         },
@@ -69,7 +90,7 @@ const config = {
       navbar: {
         title: 'PemdaKit',
         logo: {
-          alt: 'PemdaKit Logo',
+          alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -136,8 +157,9 @@ const config = {
             ],
           },
         ],
-        copyright: `
-        <p>Hak Cipta © ${new Date().getFullYear()} PemdaKit v1 ❤️</p>
+        copyright: `Hak Cipta © ${new Date().getFullYear()} PemdaKit v1 ❤️
+        <br/>
+        <br/>
         <a href="https://github.com/walidsj/pemdakit/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/walidsj/pemdakit?color=%23c4635e&style=flat-square"></a>
         <a href="https://github.com/walidsj/pemdakit/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/walidsj/pemdakit?color=%23c4635e&style=flat-square"></a>
         <a href="https://github.com/walidsj/pemdakit/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/walidsj/pemdakit?color=%23c4635e&style=flat-square"></a>
