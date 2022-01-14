@@ -32,7 +32,10 @@ const config = {
         // ... Your options.
         // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
+        docsRouteBasePath: ['/docs', '/peraturan'],
         docsDir: ['docs', 'peraturan'],
+        blogRouteBasePath: "/blog",
+        blogDir: 'blog',
         // For Docs using Chinese, The `language` is recommended to set to:
         // ```
         // language: ["en", "zh"],
@@ -140,6 +143,14 @@ const config = {
                 label: 'Materi',
                 to: '/docs/intro',
               },
+              {
+                label: 'Peraturan',
+                to: '/peraturan/intro',
+              },
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
             ],
           },
           {
@@ -155,17 +166,19 @@ const config = {
             title: 'Lainnya',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
                 href: 'https://github.com/walidsj/pemdakit',
               },
             ],
           },
         ],
-        copyright: `Hak Cipta © ${new Date().getFullYear()} PemdaKit`,
+        copyright: `Hak Cipta © ${new Date().getFullYear()} PemdaKit ❤️
+        <br/>
+        <br/>
+        <a href="https://github.com/walidsj/pemdakit/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/walidsj/pemdakit?style=flat-square"></a>
+        <a href="https://github.com/walidsj/pemdakit/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/walidsj/pemdakit?style=flat-square"></a>
+        <a href="https://github.com/walidsj/pemdakit/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/walidsj/pemdakit?style=flat-square"></a>
+        `,
       },
       prism: {
         theme: lightCodeTheme,
