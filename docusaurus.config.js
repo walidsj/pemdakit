@@ -6,15 +6,36 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'DocuProv',
-  tagline: 'Belajar Peraturan dan Ketentuan Daerah dengan Mudah melalui Website',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'PemdaKit',
+  tagline: 'Buku Saku Berisi Kumpulan Materi, Peraturan, dan Ketentuan Daerah Mudah melalui Website',
+  url: 'https://pemdakit.walid.id',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'walidsj', // Usually your GitHub org/user name.
-  projectName: 'docuprov', // Usually your repo name.
+  projectName: 'pemdakit', // Usually your repo name.
+
+  plugins: [
+    // [
+    //   '@docusaurus/plugin-content-docs',
+    //   {
+    //     id: 'materi',
+    //     path: 'materi',
+    //     routeBasePath: 'materi',
+    //     sidebarPath: require.resolve('./sidebars-materi.js'),
+    //   }, 
+    // ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'peraturan',
+        path: 'peraturan',
+        routeBasePath: 'peraturan',
+        sidebarPath: require.resolve('./sidebars-peraturan.js'),
+      }, 
+    ],
+  ],
 
   presets: [
     [
@@ -24,13 +45,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/walidsj/docuprov/tree/main/',
+          editUrl: 'https://github.com/walidsj/pemdakit/tree/main/',
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/walidsj/docuprov/tree/main/',
+            'https://github.com/walidsj/pemdakit/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,7 +64,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'DocuProv',
+        title: 'PemdaKit',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -55,9 +76,21 @@ const config = {
             position: 'left',
             label: 'Materi',
           },
+          // {
+          //   to: '/materi/intro',    // ./docs/Intro.md
+          //   label: 'Materi',
+          //   position: 'left',
+          //   activeBaseRegex: `/materi/`,
+          // },
+          {
+            to: '/peraturan/intro',    // ./docs/Intro.md
+            label: 'Peraturan',
+            position: 'left',
+            activeBaseRegex: `/peraturan/`,
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           // {
-          //   href: 'https://github.com/walidsj/docuprov',
+          //   href: 'https://github.com/walidsj/pemdakit',
           //   label: 'GitHub',
           //   position: 'right',
           // },
@@ -93,12 +126,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/walidsj/docuprov',
+                href: 'https://github.com/walidsj/pemdakit',
               },
             ],
           },
         ],
-        copyright: `Hak Cipta © ${new Date().getFullYear()} DocuProv`,
+        copyright: `Hak Cipta © ${new Date().getFullYear()} PemdaKit`,
       },
       prism: {
         theme: lightCodeTheme,
