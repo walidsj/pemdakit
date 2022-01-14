@@ -69,7 +69,7 @@ const config = {
       navbar: {
         title: 'PemdaKit',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'PemdaKit Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -136,9 +136,8 @@ const config = {
             ],
           },
         ],
-        copyright: `Hak Cipta © ${new Date().getFullYear()} PemdaKit v1 ❤️
-        <br/>
-        <br/>
+        copyright: `
+        <p>Hak Cipta © ${new Date().getFullYear()} PemdaKit v1 ❤️</p>
         <a href="https://github.com/walidsj/pemdakit/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/walidsj/pemdakit?color=%23c4635e&style=flat-square"></a>
         <a href="https://github.com/walidsj/pemdakit/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/walidsj/pemdakit?color=%23c4635e&style=flat-square"></a>
         <a href="https://github.com/walidsj/pemdakit/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/walidsj/pemdakit?color=%23c4635e&style=flat-square"></a>
