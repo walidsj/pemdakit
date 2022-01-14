@@ -39,6 +39,10 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   font-size: 2rem !important;
 }
 
+.title_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocCategoryGeneratedIndexPage-styles-module {
+  --ifm-h1-font-size: 2rem !important;
+}
+
 .markdown h1:first-child {
   --ifm-h1-font-size: 2rem;
   margin-bottom: calc( var(--ifm-h1-vertical-rhythm-bottom) * var(--ifm-leading) );
