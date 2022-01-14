@@ -5,6 +5,8 @@
  */
 
 /* You can override the default Infima variables here. */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 :root {
   /* --ifm-color-primary: #25c2a0; */
   --ifm-color-primary: #b3514c;
@@ -15,11 +17,7 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
-}
-
-.markdown h1:first-child {
-  --ifm-h1-font-size: 2rem;
-  margin-bottom: calc( var(--ifm-h1-vertical-rhythm-bottom) * var(--ifm-leading) );
+  --ifm-font-family-base: 'Inter', sans-serif;
 }
 
 .docusaurus-highlight-code-line {
@@ -31,4 +29,13 @@
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.blogPostTitle_node_modules-\@docusaurus-theme-classic-lib-next-theme-BlogPostItem-styles-module {
+  font-size: 2rem !important;
+}
+
+.markdown h1:first-child {
+  --ifm-h1-font-size: 2rem;
+  margin-bottom: calc( var(--ifm-h1-vertical-rhythm-bottom) * var(--ifm-leading) );
 }
