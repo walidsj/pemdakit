@@ -84,7 +84,7 @@ PERATURAN GUBERNUR TENTANG KODE ETIK PEGAWAI NEGERI SIPIL DI LINGKUNGAN PEMERINT
 
 <p style={{ textAlign: "center", fontWeight: "bold"  }}>Pasal 2</p>
 <p>Nilai dasar Kode Etik PNS terdiri atas:</p>
-<ol>
+<ol type="a">
   <li>integritas, yang berarti seluruh PNS harus konsisten dan berpegang teguh pada kejujuran dan kebenaran antara tindakan seseorang dengan nilai, keyakinan dan prinsip, satu kata dengan perbuatan, dapat dipercaya karena yang menjadi ucapannya juga menjadi tindakannya;</li>
   <li>melayani, yang berarti seluruh PNS harus memberikan pelayanan yang memenuhi kepuasan para pemangku kepentingan dan dilaksanakan dengan sepenuh hati, transparan, cepat, akurat, dan aman;</li>
   <li>profesional, yang berarti seluruh PNS harus bekerja dengan tuntas dan akurat berdasarkan kompetensi terbaik dan penuh tanggung jawab serta komitmen yang tinggi;</li>
@@ -95,7 +95,7 @@ PERATURAN GUBERNUR TENTANG KODE ETIK PEGAWAI NEGERI SIPIL DI LINGKUNGAN PEMERINT
 
 <p style={{ textAlign: "center", fontWeight: "bold"  }}>Pasal 3</p>
 <p>Kode Etik PNS bertujuan untuk:</p>
-<ol>
+<ol type="a">
   <li>menjaga martabat, kehormatan, citra, reputasi dan kredibilitas Pemerintah Daerah serta menciptakan keharmonisan sesama PNS dalam rangka mencapai dan mewujudkan budaya kerja yang sesuai dengan nilai dasar sebagaimana dimaksud dalam Pasal 2;</li>
   <li>memberikan panduan bagi seluruh PNS dalam bersikap dan berperilaku sehingga PNS memperoleh kejelasan dalam menentukan sikap, tindakan, maupun ucapan yang harus dilakukan sesuai dengan nilai dasar sebagaimana dimaksud dalam Pasal 2;</li>
   <li>memelihara agar seluruh PNS selalu memiliki dan menjaga perilaku yang etis;</li>
@@ -105,7 +105,7 @@ PERATURAN GUBERNUR TENTANG KODE ETIK PEGAWAI NEGERI SIPIL DI LINGKUNGAN PEMERINT
 
 <p style={{ textAlign: "center", fontWeight: "bold"  }}>Pasal 4</p>
 <p>Ruang Lingkup Kode Etik PNS meliputi:</p>
-<ol>
+<ol type="a">
   <li>sikap yaitu kesiapan atau kesediaan PNS untuk bertindak sesuai norma dan Kode Etik PNS;</li>
   <li>perilaku yaitu tindakan atau aktivitas PNS untuk kepentingan organisasi, pribadi dan lingkungan sesuai dengan tugas dan tanggung jawabnya;</li>
   <li>perbuatan yaitu inisiatif gerak dari sebuah gagasan untuk mewujudkan tugas, kewajiban, dan tanggung jawab sebagai PNS;</li>
@@ -118,7 +118,7 @@ PERATURAN GUBERNUR TENTANG KODE ETIK PEGAWAI NEGERI SIPIL DI LINGKUNGAN PEMERINT
 
 <p style={{ textAlign: "center", fontWeight: "bold"  }}>Pasal 5</p>
 <p>Kode Etik PNS berdasarkan pada nilai dasar sebagaimana dimaksud dalam Pasal 2:</p>
-<ol>
+<ol type="a">
   <li>integritas;</li>
   <li>melayani;</li>
   <li>profesional;</li>
@@ -129,7 +129,7 @@ PERATURAN GUBERNUR TENTANG KODE ETIK PEGAWAI NEGERI SIPIL DI LINGKUNGAN PEMERINT
 
 <p style={{ textAlign: "center", fontWeight: "bold"  }}>Pasal 6</p>
 <p>Integritas sebagaimana dimaksud dalam Pasal 5 huruf a, meliputi:</p>
-<ol>
+<ol type="a">
   <li>menjaga citra, harkat, dan martabat Pemerintah Daerah di berbagai forum, baik formal maupun informal di dalam maupun di luar negeri;</li>
   <li>menjaga dan mendukung visi dan misi Pemerintah Daerah dan Perangkat Daerah;</li>
   <li>menghormati dan berkontribusi pada tujuan Pemerintah Daerah dan Perangkat Daerah yang sah dan etis;</li>
@@ -165,7 +165,7 @@ PERATURAN GUBERNUR TENTANG KODE ETIK PEGAWAI NEGERI SIPIL DI LINGKUNGAN PEMERINT
 
 <p style={{ textAlign: "center", fontWeight: "bold"  }}>Pasal 7</p>
 <p>Kode Etik Nilai melayani sebagaimana dimaksud dalam Pasal 5 huruf b, meliputi:</p>
-<ol>
+<ol type="a">
   <li>menunjukkan kepedulian, ramah, dan santun dalam memberikan pelayanan tanpa ada unsur paksaan;</li>
   <li>berorientasi pada peningkatan kesejahteraan masyarakat dalam melaksanakan tugas;</li>
   <li>berupaya memberikan layanan yang tepat waktu, cepat, transparan dan tidak diskriminatif;</li>
@@ -176,7 +176,7 @@ PERATURAN GUBERNUR TENTANG KODE ETIK PEGAWAI NEGERI SIPIL DI LINGKUNGAN PEMERINT
 
 <p style={{ textAlign: "center", fontWeight: "bold"  }}>Pasal 8</p>
 <p>Profesional sebagaimana dimaksud dalam Pasal 5 huruf c, meliputi:</p>
-<ol>
+<ol type="a">
   <li>bekerja sesuai standar operasional prosedur dan kewenangan jabatan;</li>
   <li>menyelesaikan tugas atau pekerjaan secara bertanggung jawab hingga tuntas;</li>
   <li>menyusun rencana atau sasaran kinerja yang hendak dicapai;</li>
@@ -201,7 +201,7 @@ PERATURAN GUBERNUR TENTANG KODE ETIK PEGAWAI NEGERI SIPIL DI LINGKUNGAN PEMERINT
 
 <p style={{ textAlign: "center", fontWeight: "bold"  }}>Pasal 9</p>
 <p>Religius sebagaimana dimaksud dalam Pasal 5 huruf d, meliputi:</p>
-<ol>
+<ol type="a">
   <li>berupaya menjaga dan melakukan implementasi atas keimanan dan ketakwaan terhadap Tuhan Yang Maha Esa;</li>
   <li>memberikan kesempatan untuk menunaikan ibadah ketika rapat kerja atau tugas kedinasan sedang berlangsung;</li>
   <li>menghormati dan menjunjung tinggi toleransi antar umat beragama atau kepercayaan;</li>
@@ -211,7 +211,7 @@ PERATURAN GUBERNUR TENTANG KODE ETIK PEGAWAI NEGERI SIPIL DI LINGKUNGAN PEMERINT
 
 <p style={{ textAlign: "center", fontWeight: "bold"  }}>Pasal 10</p>
 <p>Sinergi sebagaimana dimaksud dalam Pasal 5 huruf e, meliputi:</p>
-<ol>
+<ol type="a">
   <li>mengakui persamaan derajat, hak, dan kewajiban setiap manusia serta mengembangkan sikap tenggang rasa antarsesama manusia;</li>
   <li>menghormati dan menghargai perbedaan latar belakang, ras, warna kulit, agama, asal-usul, jenis kelamin, status pernikahan, unsur atau kondisi kecacatan;</li>
   <li>tidak memecah belah persatuan dan kesatuan bangsa;</li>
@@ -225,7 +225,7 @@ PERATURAN GUBERNUR TENTANG KODE ETIK PEGAWAI NEGERI SIPIL DI LINGKUNGAN PEMERINT
 
 <p style={{ textAlign: "center", fontWeight: "bold"  }}>Pasal 11</p>
 <p>Inovatif sebagaimana dimaksud dalam Pasal 5 huruf f, meliputi:</p>
-<ol>
+<ol type="a">
   <li>terbuka terhadap usulan perbaikan;</li>
   <li>terbuka terhadap informasi atau pengetahuan baru;</li>
   <li>senantiasa berupaya untuk memberikan kinerja dan/atau layanan yang terbaik;</li>
@@ -238,11 +238,13 @@ PERATURAN GUBERNUR TENTANG KODE ETIK PEGAWAI NEGERI SIPIL DI LINGKUNGAN PEMERINT
 <p style={{ textAlign: "center", fontWeight: "bold"  }}>Pasal 12</p>
 <ol>
   <li>Untuk mencegah terjadinya Pelanggaran Kode Etik PNS, seluruh Pimpinan Perangkat Daerah harus:</li>
-  <li>memberdayakan pengawasan Atasan Langsung secara berjenjang;</li>
-  <li>berkoordinasi dengan Inspektorat Daerah dalam melaksanakan pengawasan internal;</li>
-  <li>membangun koordinasi dengan BKD dan Perangkat Daerah yang menyelenggarakan pendidikan dan pelatihan dalam mengupayakan pemahaman Kode Etik PNS;</li>
-  <li>menginternalisasi nilai dasar Kode Etik PNS dan ketentuan yang berhubungan dengan penegakan Kode Etik PNS di lingkungan kerjanya; dan</li>
-  <li>melakukan evaluasi dan pemantauan atas pelaksanaan Kode Etik PNS.</li>
+  <ol type="a">
+    <li>memberdayakan pengawasan Atasan Langsung secara berjenjang;</li>
+    <li>berkoordinasi dengan Inspektorat Daerah dalam melaksanakan pengawasan internal;</li>
+    <li>membangun koordinasi dengan BKD dan Perangkat Daerah yang menyelenggarakan pendidikan dan pelatihan dalam mengupayakan pemahaman Kode Etik PNS;</li>
+    <li>menginternalisasi nilai dasar Kode Etik PNS dan ketentuan yang berhubungan dengan penegakan Kode Etik PNS di lingkungan kerjanya; dan</li>
+    <li>melakukan evaluasi dan pemantauan atas pelaksanaan Kode Etik PNS.</li>
+  </ol>
   <li>Sebagai bagian dari pelaksanaan Kode Etik PNS sebagaimana dimaksud pada ayat (1), Atasan Langsung agar memberikan keteladanan, melakukan pengawasan, dan pembinaan terhadap bawahannya.</li>
 </ol>
 
@@ -257,23 +259,33 @@ Pengaduan dan Temuan
 <p style={{ textAlign: "center", fontWeight: "bold"  }}>Pasal 13</p>
 <ol>
   <li>Dugaan Pelanggaran Kode Etik PNS dapat diperoleh berdasarkan:</li>
-  <li>pengaduan; atau</li>
-  <li>temuan.</li>
+  <ol type="a">
+    <li>pengaduan; atau</li>
+    <li>temuan.</li>
+  </ol>
   <li>Pengaduan sebagaimana dimaksud pada ayat (1) huruf a, berasal dari:</li>
-  <li>PNS; atau</li>
-  <li>masyarakat.</li>
+  <ol type="a">
+    <li>PNS; atau</li>
+    <li>masyarakat.</li>
+  </ol>
   <li>Temuan sebagaimana dimaksud pada ayat (1) huruf b, berasal dari:</li>
-  <li>terlapor;</li>
-  <li>Inspektorat Daerah; atau</li>
-  <li>unit pengawasan eksternal/internal lainnya.</li>
+  <ol type="a">
+    <li>terlapor;</li>
+    <li>Inspektorat Daerah; atau</li>
+    <li>unit pengawasan eksternal/internal lainnya.</li>
+  </ol>
   <li>Pengaduan sebagaimana dimaksud pada ayat (2) disampaikan secara tertulis melalui:</li>
-  <li>dokumen atau surat;</li>
-  <li>melalui sistem aplikasi pengaduan; dan/atau</li>
-  <li>melalui media elektronik.</li>
+  <ol type="a">
+    <li>dokumen atau surat;</li>
+    <li>melalui sistem aplikasi pengaduan; dan/atau</li>
+    <li>melalui media elektronik.</li>
+  </ol>
   <li>Pengaduan sebagaimana dimaksud pada ayat (4) paling sedikit memuat:</li>
-  <li>waktu dan tempat kejadian;</li>
-  <li>bukti dan/atau saksi; dan</li>
-  <li>identitas pelapor dan terlapor.</li>
+  <ol type="a">
+    <li>waktu dan tempat kejadian;</li>
+    <li>bukti dan/atau saksi; dan</li>
+    <li>identitas pelapor dan terlapor.</li>
+  </ol>
 </ol>
 
 <p style={{ textAlign: "center", fontWeight: "bold"  }}>
