@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Mudah Diakses Kapanpun',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('../../static/img/undraw_teacher.svg').default,
     description: (
       <>
         Dapat diakses dengan mudah di setiap waktu sehingga memudahkan pekerjaan.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Fokus pada Materi',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('../../static/img/undraw_programming.svg').default,
     description: (
       <>
        Terdiri dari rangkuman materi, peraturan, dan ketentuan yang menjadi fokus utama.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Bisa Dibawa Kemana Saja',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('../../static/img/undraw_reminders.svg').default,
     description: (
       <>
         Digital dan tanpa fisik sehingga bisa dibawa kemana saja di saat kita bekerja.

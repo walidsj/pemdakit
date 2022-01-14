@@ -15,9 +15,16 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
+            style={{ margin: 4 }}
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Selengkapnya 👋
+             📖 Materi
+          </Link>
+          <Link
+            style={{ margin: 4 }}
+            className="button button--secondary button--lg"
+            to="/peraturan/intro">
+             📕 Peraturan
           </Link>
         </div>
       </div>
