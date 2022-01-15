@@ -46,7 +46,8 @@ const config = {
         routeBasePath: 'peraturan',
         sidebarPath: require.resolve('./sidebars-peraturan.js'),
         showLastUpdateAuthor: true,
-        showLastUpdateTime: true
+        showLastUpdateTime: true,
+        editUrl: 'https://github.com/walidsj/pemdakit/tree/main/',
       }, 
     ],
   ],
@@ -87,6 +88,7 @@ const config = {
         isCloseable: false,
       },
       navbar: {
+        hideOnScroll: true,
         title: 'PemdaKit',
         logo: {
           alt: 'PemdaKit Logo',
